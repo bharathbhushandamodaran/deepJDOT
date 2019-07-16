@@ -85,7 +85,7 @@ from Deepjdot import Deepjdot
 
 batch_size=128
 sample_size=50
-sloss = 2.0; tloss=1.0; int_lr=0.002; jdot_alpha=5.0
+sloss = 2.0; tloss=1.0; int_lr=0.0002; jdot_alpha=5.0
 # DeepJDOT model initalization
 al_model = Deepjdot(model, batch_size, n_class, optim,allign_loss=1.0,
                       sloss=sloss,tloss=tloss,int_lr=int_lr,jdot_alpha=jdot_alpha,
